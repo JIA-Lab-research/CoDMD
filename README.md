@@ -23,7 +23,7 @@ CoDMD performs strongly on fast actions, camera motion, prompt alignment, and vi
 
 **Prompt Alignment** — faithful response to detailed instructions.
 
-<video src="assets/PromptAlignment.mp4" width="100%" controls></video>
+<video src="assets/prompt.mp4" width="100%" controls></video>
 
 **Color Rendering** — rich colors and visually pleasing appearance.
 
@@ -31,11 +31,11 @@ CoDMD performs strongly on fast actions, camera motion, prompt alignment, and vi
 
 **Fast Action** — stable motion under rapid dynamics.
 
-<video src="assets/ActionFast.mp4" width="100%" controls></video>
+<video src="assets/action.mp4" width="100%" controls></video>
 
 **Camera Motion** — smooth camera movement with coherent structure.
 
-<video src="assets/CameraMotion.mp4" width="100%" controls></video>
+<video src="assets/camera.mp4" width="100%" controls></video>
 
 ## Overview
 
