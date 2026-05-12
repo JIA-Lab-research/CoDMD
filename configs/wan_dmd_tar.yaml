@@ -1,0 +1,88 @@
+# ============================================================
+# CoDMD: Copula-Aware Distribution Matching Distillation
+# Config for Wan2.1-T2V-1.3B (4-step distillation)
+# ============================================================
+
+model_name: wan
+
+# FSDP wrapping strategy
+generator_fsdp_wrap_strategy: size
+real_score_fsdp_wrap_strategy: size
+fake_score_fsdp_wrap_strategy: size
+text_encoder_fsdp_wrap_strategy: size
+
+# Gradient settings: generator and fake_score are trainable; real_score (teacher) is frozen
+generator_grad:
+  model: true
+real_score_grad:
+  model: false
+fake_score_grad:
+  model: true
+
+# Denoising schedule (4-step)
+denoising_step_list:
+- 1000
+- 900
+- 757
+- 522
+num_train_timestep: 1000
+timestep_shift: 8.0
+real_guidance_scale: 3.5
+
+# Task type
+generator_task: bidirectional_video
+real_task_type: bidirectional_video
+fake_task_type: bidirectional_video
+denoising_loss_type: flow
+mixed_precision: true
+seed: 0
+sharding_strategy: hybrid_full
+
+# Training hyperparameters
+lr: 2.0e-06
+beta1: 0.9
+beta2: 0.999
+gradient_checkpointing: true
+dfake_gen_update_ratio: 5
+
+# Model path (point to your local Wan2.1-T2V-1.3B directory)
+model_path: <PATH_TO_WAN_1.3B>
+
+# Data: pre-generated tar data (pre-computed T5 embeddings + backward simulation)
+use_tar_data: true
+tar_data_dir: <PATH_TO_TAR_DATA>
+# data_path is only used when use_tar_data is false (plain text prompt file)
+data_path: prompts.txt
+num_workers: 4
+shuffle_buffer: 1000
+batch_size: 2
+backward_simulation: true
+warp_denoising_step: false
+
+# Video shape: [B, F, C, H, W]
+image_or_video_shape:
+- 1
+- 21
+- 16
+- 60
+- 104
+
+# Logging (TensorBoard)
+log_iters: 200
+
+# Output directory
+output_path: ./outputs
+distillation_loss: dmd
+
+# Copula-aware distillation loss (core contribution)
+# Matches relational structure between student and teacher via KL divergence
+# on similarity matrices derived from score predictions
+use_copula_loss: true
+copula_loss_weight: 0.1
+copula_temperature: 0.1
+copula_batch_weight: 0
+copula_frame_weight: 1
+
+# Negative prompt
+negative_prompt: '色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走'
+
