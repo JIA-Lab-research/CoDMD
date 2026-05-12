@@ -9,7 +9,7 @@
 </div>
 
 <p align="center">
-  <img src="assets/teaser.jpg" width="98%">
+  <img src="assets/teaser.jpg" width="90%">
 </p>
 
 **CoDMD** distills Wan2.1 video diffusion models into **4-step** generators while preserving the joint dependency structure across frames and samples via a novel **copula-aware distillation loss**. 
@@ -20,32 +20,22 @@
 
 CoDMD performs strongly on fast actions, camera motion, prompt alignment, and vivid color rendering.
 
-<table>
-<tr>
-<td align="center"><b>Fast Action</b></td>
-<td align="center"><b>Camera Motion</b></td>
-</tr>
-<tr>
-<td><video src="assets/ActionFast.mp4" width="100%" controls></video></td>
-<td><video src="assets/CameraMotion.mp4" width="100%" controls></video></td>
-</tr>
-<tr>
-<td align="center"><sub>Stable motion under rapid dynamics.</sub></td>
-<td align="center"><sub>Smooth camera movement with coherent structure.</sub></td>
-</tr>
-<tr>
-<td align="center"><b>Prompt Alignment</b></td>
-<td align="center"><b>Color Rendering</b></td>
-</tr>
-<tr>
-<td><video src="assets/PromptAlignment.mp4" width="100%" controls></video></td>
-<td><video src="assets/color.mp4" width="100%" controls></video></td>
-</tr>
-<tr>
-<td align="center"><sub>Faithful response to detailed instructions.</sub></td>
-<td align="center"><sub>Rich colors and visually pleasing appearance.</sub></td>
-</tr>
-</table>
+
+**Prompt Alignment** — faithful response to detailed instructions.
+
+<video src="assets/PromptAlignment.mp4" width="100%" controls></video>
+
+**Color Rendering** — rich colors and visually pleasing appearance.
+
+<video src="assets/color.mp4" width="100%" controls></video>
+
+**Fast Action** — stable motion under rapid dynamics.
+
+<video src="assets/ActionFast.mp4" width="100%" controls></video>
+
+**Camera Motion** — smooth camera movement with coherent structure.
+
+<video src="assets/CameraMotion.mp4" width="100%" controls></video>
 
 ## Overview
 
