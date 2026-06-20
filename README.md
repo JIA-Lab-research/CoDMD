@@ -192,7 +192,7 @@ CoDMD/
 This project builds upon the following excellent works:
 
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1) — the base video model
-- [CausVid](https://arxiv.org/abs/2502.14081) — causal video distillation framework
+- [CausVid](https://arxiv.org/abs/2502.14081) — training framework
 - [rCM](https://arxiv.org/abs/2510.08431) — pre-sampled dataset
 
 
