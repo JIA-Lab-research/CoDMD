@@ -20,23 +20,21 @@
 
 CoDMD performs strongly on fast actions, camera motion, prompt alignment, and vivid color rendering.
 
-
 **Prompt Alignment** — faithful response to detailed instructions.
 
-<video src="assets/prompt.mp4" width="100%" controls></video>
+<video src="https://github.com/JIA-Lab-research/CoDMD/raw/main/assets/prompt.mp4" width="100%" controls></video>
 
 **Color Rendering** — rich colors and visually pleasing appearance.
 
-<video src="assets/color.mp4" width="100%" controls></video>
+<video src="https://github.com/JIA-Lab-research/CoDMD/raw/main/assets/color.mp4" width="100%" controls></video>
 
 **Fast Action** — stable motion under rapid dynamics.
 
-<video src="assets/action.mp4" width="100%" controls></video>
+<video src="https://github.com/JIA-Lab-research/CoDMD/raw/main/assets/action.mp4" width="100%" controls></video>
 
 **Camera Motion** — smooth camera movement with coherent structure.
 
-<video src="assets/camera.mp4" width="100%" controls></video>
-
+<video src="https://github.com/JIA-Lab-research/CoDMD/raw/main/assets/camera.mp4" width="100%" controls></video>
 ## Overview
 
 Standard Distribution Matching Distillation (DMD) treats each output element independently, losing the **joint dependency structure** (copula) across video frames and batch samples. CoDMD introduces a **copula-aware distillation loss** that explicitly preserves these relational structures during distillation.
