@@ -22,19 +22,19 @@ CoDMD performs strongly on fast actions, camera motion, prompt alignment, and vi
 
 **Prompt Alignment** — faithful response to detailed instructions.
 
-<video src="https://github.com/user-attachments/assets/b694aeeb-023a-4cbc-aaf5-a55d7ac7a13a" width="100%" controls></video>
+<video src="https://github.com/user-attachments/assets/db6124fa-6dcd-41bd-a954-165685b0e0f6" width="100%" controls></video>
 
 **Color Rendering** — rich colors and visually pleasing appearance.
 
-<video src="https://github.com/user-attachments/assets/deb9e8fa-ad22-4a0e-a99a-d4e1b485e933" width="100%" controls></video>
+<video src="https://github.com/user-attachments/assets/13f43278-dbd2-4169-8756-897ab3ddcb20" width="100%" controls></video>
 
 **Fast Action** — stable motion under rapid dynamics.
 
-<video src="https://github.com/user-attachments/assets/db6124fa-6dcd-41bd-a954-165685b0e0f6" width="100%" controls></video>
+<video src="https://github.com/user-attachments/assets/deb9e8fa-ad22-4a0e-a99a-d4e1b485e933" width="100%" controls></video>
 
 **Camera Motion** — smooth camera movement with coherent structure.
 
-<video src="https://github.com/user-attachments/assets/13f43278-dbd2-4169-8756-897ab3ddcb20" width="100%" controls></video>
+<video src="https://github.com/user-attachments/assets/b694aeeb-023a-4cbc-aaf5-a55d7ac7a13a" width="100%" controls></video>
 ## Overview
 
 Standard Distribution Matching Distillation (DMD) treats each output element independently, losing the **joint dependency structure** (copula) across video frames and batch samples. CoDMD introduces a **copula-aware distillation loss** that explicitly preserves these relational structures during distillation.
