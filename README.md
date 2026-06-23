@@ -77,8 +77,9 @@ pip install -e .
 
 | Model | Backbone | Steps | Download |
 |-------|----------|-------|----------|
-| CoDMD-1.3B | Wan2.1-T2V-1.3B | 4 | [🤗 HuggingFace](https://huggingface.co/PLACEHOLDER/CoDMD-1.3B) |
-| CoDMD-14B | Wan2.1-T2V-14B | 4 | [🤗 HuggingFace](https://huggingface.co/PLACEHOLDER/CoDMD-14B) |
+| CoDMD-1.3B | Wan2.1-T2V-1.3B | 4 | Coming Soon |
+| CoDMD-14B | Wan2.1-T2V-14B | 4 | Coming Soon |
+
 
 Download and place the checkpoint folder (containing `model.pt`) to your local directory.
 
