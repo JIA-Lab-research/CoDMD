@@ -2,7 +2,7 @@
 
 # CoDMD: Copula-Aware Distribution Matching Distillation for Video Generation
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/abs/XXXX.XXXXX)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/pdf/2606.21982)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://andrew-zhang98.github.io/CoDMD_page/#)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE.md)
 
