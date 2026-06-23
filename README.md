@@ -201,10 +201,13 @@ We thank the authors for their outstanding contributions to the community.
 If you find this work useful, please cite:
 
 ```bibtex
-@article{codmd2025,
-  title={CoDMD: Copula-Aware Distribution Matching Distillation for Video Generation},
-  author={Your Name},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2025}
+@misc{zhang2026codmdcopulaawaredistributionmatching,
+      title={CoDMD: Copula-aware Distribution Matching Distillation for Fast Video Generation}, 
+      author={Wenhu Zhang and Kun Cheng and Changyuan Wang and Shiyao Li and Yuechen Zhang and Wenbo Li and Jiajun Zha and Jingyi Zhang and Kang Zhao and Jiaya Jia},
+      year={2026},
+      eprint={2606.21982},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2606.21982}, 
 }
 ```
