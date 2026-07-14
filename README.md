@@ -4,6 +4,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/pdf/2606.21982)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://andrew-zhang98.github.io/CoDMD_page/#)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-CoDMD-ffcc4d.svg)](https://huggingface.co/wzhangek/CoDMD/tree/main)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](LICENSE.md)
 
 </div>
