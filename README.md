@@ -78,7 +78,7 @@ pip install -e .
 
 | Model | Backbone | Steps | Download |
 |-------|----------|-------|----------|
-| CoDMD-1.3B | Wan2.1-T2V-1.3B | 4 | Coming Soon |
+| CoDMD-1.3B | Wan2.1-T2V-1.3B | 4 | ![CoDMD_wan2.1_T2V_1.3B.pt](https://huggingface.co/wzhangek/CoDMD) |
 | CoDMD-14B | Wan2.1-T2V-14B | 4 | Coming Soon |
 
 
